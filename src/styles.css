@@ -5,4 +5,31 @@ monospace;
 font-family: 'IBM Plex Sans',
 sans-serif;
 font-family: 'Kalam',
-cursive; */
+cursive; 
+background: linear-gradient(90deg, rgb(252, 115, 156) 0%, rgb(91, 67, 150) 100%);
+*/
+
+:root{
+  --heading-font: 'IBM Plex Sans', sans-serif;
+  --para-font: 'IBM Plex Mono', monospace;
+  --desc-font: 'Dancing Script', cursive;
+}
+body{
+  font-family: var(--para-font);
+}
+h1{
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+.top-section{
+  text-align: center;
+  padding: 160px 20px;
+  background-color: rgba(190, 114, 151, 0.58);
+}
+.top-section p{
+  font-weight: 500;
+  font-size: 38px;
+}
+.top-section h1{
+  font-size: 90px;
+}
