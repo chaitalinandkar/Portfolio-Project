@@ -98,6 +98,7 @@ h1{
   border: none;
   margin-bottom: 50px;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 .image-project-weather,
 .image-project-croissant{
@@ -119,5 +120,11 @@ h1{
   margin: 50px;
   text-align: center;
   font-size: 30px;
-  color: rgba(90, 116, 180, 0.795);
+}
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube,
+.fa-pinterest{
+  color: rgba(82, 112, 190, 0.795);
 }
