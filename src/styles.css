@@ -43,17 +43,7 @@ h1{
   font-size: 90px;
   font-weight: bold;
 }
-@media (min-width: 570px) {
-  .top-section h1{
-    font-size: 35px;
-  }
-  h2{
-    font-size: 15px;
-  }
-  h3{
-    font-size: 10px;
-  }
-}
+
 h3{
   font-size: 30px;
   font-family: var(--heading-font);
@@ -227,4 +217,71 @@ transition: all 0.15s ease-in-out;
   border: 2px solid #829af3;
   text-decoration: none;
   padding: 15px 25px;
+}
+@media (max-width: 570px) {
+  .top-section h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+  p{
+    font-size: 15px;
+  }
+  .profile-homepage{
+    margin: 50px auto;
+    padding: 20px 0px;
+    width: 350px;
+    height: 80%;
+  }
+  .container-myproject row{
+    width: 60%;
+    height: 20%;
+  }
+  .follow-me{
+    font-size: 10px;
+  }
+  .about-section img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  .project-list-link{
+    font-size: 12px;
+    width: 30%;
+    padding: 8px 10px;
+  }
+  .project-container img{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+  }
+  .project-container p {
+    width: 400px;
+    text-align: justify;
+    font-size: 15px!important;
+    font-family: var(--heading-font);
+    line-height: 20px;
+    margin-bottom: 50px;
+    margin: 10px auto;
+  }
+  .btn-style {
+    margin-top: 8px;
+    font-size: 12px!important;
+    background-color: #c2cffc;
+    padding: 8px 10px;
+  }
+  .work-enquiry {
+    background-color: #c2cffc;
+    margin: 30px auto;
+    width: 70%;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+  }
 }
