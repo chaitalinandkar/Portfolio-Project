@@ -135,18 +135,11 @@ h3{
   padding: 40px;
   border-radius: 50px;
 }
-/* .weather-desc, 
-.croissant-desc{
-  padding: 20px 50px 20px 60px;
-  text-align: justify;
-  font-family: var(--para-font);
-  line-height: 28px;
-} */
 
 .follow-me{
   margin: 100px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 .fa-facebook,
 .fa-instagram,
