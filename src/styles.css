@@ -27,6 +27,16 @@ body{
   right: 0;
   font-size: 20px;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item a{
+  font-size: 20px;
+  font-weight: 600;
+  color: #738eef;
+}
+.nav-item a:hover {
+  color: #365dea;
 }
 h1{
   font-family: var(--heading-font);
@@ -216,7 +226,4 @@ transition: all 0.15s ease-in-out;
   border: 2px solid #829af3;
   text-decoration: none;
   padding: 15px 25px;
-}
-.work-enquiry h2{
-  
 }
